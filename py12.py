@@ -1,0 +1,5 @@
+names = input("Enter first names separated by spaces: ").split()
+print("\nList of names:", names)
+print("Names in reverse order:", names[::-1])
+longest_name = max(names, key=len)
+print("The longest name is:", longest_name) 
