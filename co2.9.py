@@ -1,0 +1,11 @@
+square_area = lambda a: a * a 
+rectangle_area = lambda l, b: l * b 
+triangle_area = lambda b, h: 0.5 * b * h 
+a = float(input("Enter side of square: ")) 
+l = float(input("Enter length of rectangle: ")) 
+b = float(input("Enter breadth of rectangle: ")) 
+tb = float(input("Enter base of triangle: ")) 
+h = float(input("Enter height of triangle: ")) 
+print("Area of Square =", square_area(a)) 
+print("Area of Rectangle =", rectangle_area(l, b)) 
+print("Area of Triangle =", triangle_area(tb, h)) 
